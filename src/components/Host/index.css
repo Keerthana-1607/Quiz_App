@@ -1,0 +1,41 @@
+body{
+    background-color:blue;
+}
+.card{
+    width:500px;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+button{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.start-btn{
+    background-color:cornflowerblue;
+    color:#ffffff;
+}
+.next-btn{
+    /* width:80%; */
+    background-color: lightgray;
+    /* margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px; */
+    /* padding-bottom:10px; */
+}
+.reset-btn{
+    width:80%;
+    background-color:rgb(245, 64, 64);
+    color:white;
+    
+}
+h1{
+    font-size: 34px;
+    
+}
+p{
+    margin-top:10px;
+} 
