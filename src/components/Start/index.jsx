@@ -18,9 +18,9 @@ const Start=()=>{
             
                 <h1>Live Quiz</h1>
                 <p>Open multiple tabs to experience real-time updates</p>
-                <Link to='/host'>
-                    <button className='start-btn' onClick={navigatetoHost}>Start as Host</button>
-                </Link>
+                {/* <Link to='/host'> */}
+                <button className='start-btn' onClick={navigatetoHost}>Start as Host</button>
+                {/* </Link> */}
                 <Link to='/questions'>
                 <button className='join-btn'>Join as Player</button>
                 </Link>
